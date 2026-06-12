@@ -19,10 +19,14 @@
 | `supermemory.md` | Skill 定义文件 — AI Agent 读这个就知道怎么维护记忆 |
 | `sample-vault/` | 示例记忆库 — 复制即用，Obsidian 可直接打开 |
 
-## 多 Agent 共享
+## 多 Agent 协同
 
-所有指向同一个文件夹的 AI Agent 共用同一份记忆。  
-Reasonix、Claude Code、Cline、Cursor... 只要支持文件读写就能接入。
+**所有指向同一个文件夹的 AI Agent 共用同一份 Markdown 仓库，实现跨 Agent 记忆协同。**
+
+Reasonix、Claude Code、Cline、Cursor、Windsurf……只要支持文件读写就能接入。
+
+一个 Agent 写入的技术偏好 → 另一个 Agent 立刻能读到。  
+你还可以让不同 Agent 负责不同分类：一个专注技术栈，一个专注项目决策，互不冲突，共享一份图谱。
 
 ## 与同类项目的区别
 

@@ -1,6 +1,6 @@
 ---
 name: supermemory
-description: 本地化 AI 记忆管理 — 通过文件系统自动维护用户画像、技术偏好、项目决策，多 Agent 共享，Obsidian 可视化
+description: 本地化 AI 记忆管理 — 通过文件系统自动维护用户画像、技术偏好、项目决策，多 Agent 共用同一份 Markdown 仓库，跨 Agent 记忆协同，Obsidian 可视化
 config:
   MEMORY_PATH: "~/ai-memory"   # ← 改成你自己的记忆库路径
 ---
