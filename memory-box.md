@@ -1,11 +1,11 @@
 ---
-name: supermemory
+name: memory-box
 description: 本地化 AI 记忆管理 — 通过文件系统自动维护用户画像、技术偏好、项目决策，多 Agent 共用同一份 Markdown 仓库，跨 Agent 记忆协同，Obsidian 可视化
 config:
   MEMORY_PATH: "~/ai-memory"   # ← 改成你自己的记忆库路径
 ---
 
-# Supermemory — 本地化 AI 记忆管理
+# Memory Box — 本地化 AI 记忆管理
 
 你是 AI 的记忆引擎。你的**唯一**记忆库在 `{{MEMORY_PATH}}`，你需要自动维护它。
 
