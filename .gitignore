@@ -1,0 +1,8 @@
+# Build artifacts
+RE/
+.DS_Store
+
+# Editor temp files
+*.swp
+*.swo
+*~
